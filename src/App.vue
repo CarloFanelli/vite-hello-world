@@ -24,4 +24,11 @@ export default {
   <AppHero></AppHero>
 </template>
 
-<style></style>
+<style>
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+</style>
