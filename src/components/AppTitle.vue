@@ -4,9 +4,11 @@
 export default {
     data() {
         return {
-            title: "La mia prima app con Vite!",
         }
     },
+
+    props: ['title'],
+
     components: {
     },
 
@@ -15,7 +17,7 @@ export default {
 </script>
 
 <template>
-    <h1>{{ title }}</h1>
+    <h2>{{ title }}</h2>
 </template>
 
 <style></style>

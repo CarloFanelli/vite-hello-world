@@ -1,6 +1,7 @@
 <script>
 
-import AppTitle from './components/AppTitle.vue'
+import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
 
 export default {
   data() {
@@ -9,7 +10,8 @@ export default {
     }
   },
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   },
 
 }
@@ -17,8 +19,9 @@ export default {
 </script>
 
 <template>
-  <h1>{{ message }}</h1>
-  <AppTitle></AppTitle>
+  <h1 class="text-success">{{ message }}</h1>
+  <AppTitle title="La mia prima app con Vite!"></AppTitle>
+  <AppHero></AppHero>
 </template>
 
 <style></style>
